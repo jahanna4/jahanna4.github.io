@@ -1,22 +1,14 @@
-/* Navbar */
-.navbar{
+/* Navbar background*/
+.navbar {
     background-color: whitesmoke;
 }
 
-/* Body */
-body{
-    background-color: lightgrey;
-}
-
-.container {
-    padding: 20px;
-}
-
-/* Nav Text */
+/* Navbar Latitude Format */
 .navbar-brand {
     background-color: #0bada6;
 }
 
+/* Navbar Latitude Font */
 #navbar-brand {
     color: white;
     padding: 8px;
@@ -25,12 +17,29 @@ body{
     font-weight: bold;
 }
 
+/* Body */
+body {
+    background-color: lightgrey;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Secondary container */
+.contain {
+    background-color: white;
+}
+
+/* Column Style */
 .col-md-7, .col-md-4 {
     background-color: white;
     margin: 10px;
     padding: 20px;
 }
 
+/* Heading */
 h1 {
     color: #0bada6;
     font-family: "Times New Roman", serif;
@@ -38,15 +47,30 @@ h1 {
     margin-bottom: 10px;
 }
 
-#horiz{
+/* Horizontal bar */
+#horiz {
     margin-top:10px;
     margin-bottom:10px;
 }
 
-.imgwrap{
+/* Center Alignment */
+.middle {
+    text-align: center;
+    display: block;
+}
+
+/* Image float */
+.imgwrap {
     float: left;
 }
 
-.contain {
-    background-color: white;
+/* Image outline */
+.imgborder {
+    border-style: solid;
+    border: #0bada6;
+}
+
+/* Table */
+.table {
+    background: aquamarine;
 }
